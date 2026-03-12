@@ -1,0 +1,24 @@
+1️⃣ Packages
+	•	A package is a collection of reusable code written by other developers.
+	•	It helps you avoid writing everything from scratch.
+	•	Packages are stored on npm (Node Package Manager).
+
+Example packages
+	•	express → create servers
+	•	mongoose → connect MongoDB
+	•	nodemon → auto restart server
+
+  2️⃣ How to Install Packages
+  First create a project : npm init -y
+  Install a package: npm install express
+
+after these 2 command run then show this 
+
+node_modules/
+package.json
+package-lock.json
+
+3️⃣ How to Use Packages
+
+const express = require("express");
+const app = express();

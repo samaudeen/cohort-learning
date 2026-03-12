@@ -1,0 +1,18 @@
+GET → Read / get data from server 📥
+POST → Create new data on server ➕
+PUT → Update the whole existing data 🔄
+PATCH → Update part of existing data ✏️
+DELETE → Remove data from server ❌ 
+
+
+app.use(express.json()); is line ki help se users data padhta h 
+ It allows an Express.js server to read JSON data sent in the request body
+
+
+Postman  → request bhejta hai
+        ↓
+Server (VS Code me running)
+        ↓
+Server code run hota hai
+        ↓
+Response wapas Postman ko jata hai
